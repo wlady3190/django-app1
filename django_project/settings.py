@@ -37,8 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Rest framework
+    'rest_framework',
     #local
-    'books.apps.BooksConfig'
+    'books.apps.BooksConfig',
+    #agregago app
+    'apis.apps.ApisConfig'
 ]
 
 MIDDLEWARE = [
